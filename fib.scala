@@ -1,7 +1,7 @@
 def fib(n: Int): Int = {
     @annotation.tailrec
     def loop(n: Int, a: Int, b: Int): Int =
-        if (n <= 0) a 
+        if (n <= 1) a 
         else loop(n-1, b, a+b)
-    loop(n-1, 0, 1)
+    loop(n, 0, 1)
 }

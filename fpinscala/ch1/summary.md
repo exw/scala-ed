@@ -1,0 +1,1 @@
+Chapter 1, "What is functional programming?". Defines functional programming (referential transparency, first class functions) and illustrates some benefits -- simpler reasoning, more modularity, etc.
